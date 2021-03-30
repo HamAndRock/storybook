@@ -7,7 +7,7 @@ applications:
                       - npm install
 
                       # Build application
-                      - npm run build
+                      - npm run build -- -o ./out
           artifacts:
               baseDirectory: /out
               files:
