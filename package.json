@@ -1,19 +1,31 @@
 {
   "name": "@goforboom/storybook",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "Product design book for standardized components across platforms.",
+  "contributors": [
+    {
+      "name": "Jiri Sveceny",
+      "email": "sveceny@sitole.cz"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/goforboom/storybook/issues"
+  },
+  "homepage": "https://storybook.goforboom.com",
+  "dependencies": {
+    "@types/styled-components": "^5.1.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.2.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@storybook/addon-actions": "^6.1.21",
     "@storybook/addon-essentials": "^6.1.21",
     "@storybook/addon-links": "^6.1.21",
     "@storybook/react": "^6.1.21",
-    "babel-loader": "^8.2.2"
-  },
-  "dependencies": {
-    "@types/styled-components": "^5.1.9",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "styled-components": "^5.2.1"
+    "babel-loader": "^8.2.2",
+    "typescript": "^4.2.3"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
