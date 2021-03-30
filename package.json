@@ -12,6 +12,15 @@
     "url": "https://github.com/goforboom/storybook/issues"
   },
   "homepage": "https://storybook.goforboom.com",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "components",
+    "storybook",
+    "design",
+    "boom"
+  ],
+  "files": ["dist"],
   "dependencies": {
     "@types/styled-components": "^5.1.9",
     "react": "^17.0.2",
@@ -29,6 +38,7 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "build": "build-storybook",
+    "publish": "tsc"
   }
 }

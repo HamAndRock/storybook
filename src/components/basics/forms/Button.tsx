@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const SimpleButton = (
-    { className, type, label, flexible, uppercase }
+    { className, label, flexible, uppercase }
     : { className: string, type: string, label: string, flexible: boolean, uppercase: boolean }
 ) => (
     <button className={className}>{label}</button>
