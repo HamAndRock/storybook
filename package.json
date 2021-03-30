@@ -1,6 +1,7 @@
 {
   "name": "@goforboom/storybook",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "type": "module",
   "description": "Product design book for standardized components across platforms.",
   "contributors": [
     {
